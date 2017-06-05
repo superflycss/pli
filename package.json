@@ -1,0 +1,23 @@
+
+{
+  "name": "@superflycss/pli",
+  "version": "1.0.0",
+  "description": "Standard directory layout for all SuperflyCSS modules",
+  "main": "src/main/js/index.js",
+  "keywords": [
+    "standard",
+    "directory",
+    "layout",
+    "css",
+    "superflycss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superflycss/pli"
+  },
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "dependencies": {
+    "glob-patterns": "0.0.1"
+  }
+}
