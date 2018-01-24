@@ -1,5 +1,7 @@
 # SuperflyCSS Project Layout Instance (PLI)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/superflycss/pli.svg)](https://greenkeeper.io/)
+
 
 The PLI (Project Layout Instance) is a javascript object model of the standard directory layout that all [SuperflyCSS](https://github.com/superfly-css/superfly-css/) modules use.  The standard layout enables users to instantly feel at home in any one of the [SuperflyCSS](https://github.com/superfly-css/superfly-css/) modules.
 
