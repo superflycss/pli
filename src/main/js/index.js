@@ -2,7 +2,7 @@ var path = require('path');
 var GLOB = require('glob-patterns');
 
 var PLI = {
-  SOURCE: 'src/',
+  SRC: 'src/',
   TARGET: 'target/',
   DEPLOY: 'deploy/',
   DIST: 'dist/',
