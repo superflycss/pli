@@ -5,6 +5,7 @@ var PLI = {
   SRC: 'src/',
   TARGET: 'target/',
   DEPLOY: 'deploy/',
+  SERVE: 'serve',
   DIST: 'dist/',
   src: {
     main: {
