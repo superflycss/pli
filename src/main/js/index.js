@@ -7,6 +7,10 @@ var PLI = {
   DEPLOY: 'deploy/',
   SERVE: 'serve',
   DIST: 'dist/',
+  serve: {
+    js: 'serve/js/',
+    css: 'serve/css/'
+  },
   src: {
     main: {
       js: 'src/main/js/',
