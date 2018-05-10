@@ -77,4 +77,6 @@ PLI.DEPLOY_TEST_CSS = path.join(PLI.deploy.test.css, GLOB.ALL_CSS);
 PLI.DEPLOY_TEST_HTML = path.join(PLI.deploy.test.html, GLOB.ALL_HTML);
 PLI.DEPLOY_TEST_JS = path.join(PLI.deploy.test.js, GLOB.ALL_JS);
 
+PLI.SERVE_TEST_HTML = path.join(PLI.SERVE, GLOB.ALL_HTML);
+
 module.exports = PLI;
