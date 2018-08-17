@@ -17,6 +17,6 @@
   "author": "Ole Ersoy",
   "license": "MIT",
   "dependencies": {
-    "glob-patterns": "0.0.1"
+    "glob-patterns": "0.0.2"
   }
 }
