@@ -19,14 +19,14 @@ var PLI = {
       css: 'src/main/css/',
       html: 'src/main/html/',
       svg: 'src/main/svg/',
-      nunjucks: 'src/main/nunjucks/'
+      njk: 'src/main/njk/'
     },
     test: {
       js: 'src/test/js/',
       css: 'src/test/css/',
       html: 'src/test/html/',
       svg: 'src/test/svg/',
-      nunjucks: 'src/test/nunjucks/'
+      njk: 'src/test/njk/'
     }
   },
   target: {
@@ -35,14 +35,14 @@ var PLI = {
       css: 'target/main/css/',
       html: 'target/main/html/',
       svg: 'target/main/svg/',
-      nunjucks: 'target/main/nunjucks/'
+      njk: 'target/main/njk/'
     },
     test: {
       js: 'target/test/js/',
       css: 'target/test/css/',
       html: 'target/test/html/',
       svg: 'target/test/svg/',
-      nunjucks: 'target/test/nunjucks/'
+      njk: 'target/test/njk/'
     }
   },
   deploy: {
@@ -50,13 +50,13 @@ var PLI = {
       js: 'deploy/main/js/',
       css: 'deploy/main/css/',
       html: 'deploy/main/html/',
-      nunjucks: 'deploy/main/nunjucks/'
+      njk: 'deploy/main/njk/'
     },
     test: {
       js: 'deploy/test/js/',
       css: 'deploy/test/css/',
       html: 'deploy/test/html/',
-      nunjucks: 'deploy/test/nunjucks/'
+      njk: 'deploy/test/njk/'
     }
   }
 }
@@ -88,5 +88,7 @@ PLI.DEPLOY_TEST_JS = path.join(PLI.deploy.test.js, GLOB.ALL_JS);
 
 PLI.SERVE_TEST_HTML = path.join(PLI.SERVE, GLOB.ALL_HTML);
 PLI.SERVE_TEST_SVG = path.join(PLI.SERVE, GLOB.ALL_SVG);
+
+PLI.NODE_MODULES = 'node_modules';
 
 module.exports = PLI;
