@@ -14,10 +14,12 @@ The following directories are modeled by the PLI.
 | Directory         | Summary                                                   |
 |:------------------|:----------------------------------------------------------|
 | src/main/css      | Entry level CSS module(s) are contained in this directory |
+| src/main/sss      | Entry level SSS module(s) are contained in this directory |
 | src/main/js       | Javascript supporting dynamic demoes                      |
 | src/main/html     | Dynamic demonstrations                                    |
 | src/main/nunjucks | Nunjucks Templates                                        |
 | src/test/css      | CSS test utilities                                        |
+| src/test/sss      | SSS test utilities                                        |
 | src/test/js       | Javascript supporting CSS unit tests                      |
 | src/test/html     | Html pages for loading the unit tests                     |
 | src/test/nunjucks | Nunjucks Template unit tests                              |
