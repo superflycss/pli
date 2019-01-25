@@ -64,12 +64,12 @@ var PLI = {
 }
 
 PLI.SRC_MAIN_CSS = path.join(PLI.src.main.css, GLOB.ALL_CSS);
-PLI.SRC_MAIN_SSS = path.join(PLI.src.main.css, GLOB.ALL_SSS);
+PLI.SRC_MAIN_SSS = path.join(PLI.src.main.sss, GLOB.ALL_SSS);
 PLI.SRC_MAIN_HTML = path.join(PLI.src.main.html, GLOB.ALL_HTML);
 PLI.SRC_MAIN_JS = path.join(PLI.src.main.js, GLOB.ALL_JS);
 PLI.SRC_MAIN_SVG = path.join(PLI.src.main.svg, GLOB.ALL_SVG);
 PLI.SRC_TEST_CSS = path.join(PLI.src.test.css, GLOB.ALL_CSS);
-PLI.SRC_TEST_SSS = path.join(PLI.src.test.css, GLOB.ALL_SSS);
+PLI.SRC_TEST_SSS = path.join(PLI.src.test.sss, GLOB.ALL_SSS);
 PLI.SRC_TEST_HTML = path.join(PLI.src.test.html, GLOB.ALL_HTML);
 PLI.SRC_TEST_JS = path.join(PLI.src.test.js, GLOB.ALL_JS);
 PLI.SRC_TEST_SVG = path.join(PLI.src.test.svg, GLOB.ALL_SVG);
