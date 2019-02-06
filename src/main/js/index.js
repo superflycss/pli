@@ -20,7 +20,8 @@ var PLI = {
       sss: 'src/main/sss/',
       html: 'src/main/html/',
       svg: 'src/main/svg/',
-      njk: 'src/main/njk/'
+      njk: 'src/main/njk/',
+      md: 'src/main/md/'
     },
     test: {
       js: 'src/test/js/',
@@ -28,7 +29,8 @@ var PLI = {
       sss: 'src/test/sss/',
       html: 'src/test/html/',
       svg: 'src/test/svg/',
-      njk: 'src/test/njk/'
+      njk: 'src/test/njk/',
+      md: 'src/test/md/'
     }
   },
   target: {
@@ -68,11 +70,13 @@ PLI.SRC_MAIN_SSS = path.join(PLI.src.main.sss, GLOB.ALL_SSS);
 PLI.SRC_MAIN_HTML = path.join(PLI.src.main.html, GLOB.ALL_HTML);
 PLI.SRC_MAIN_JS = path.join(PLI.src.main.js, GLOB.ALL_JS);
 PLI.SRC_MAIN_SVG = path.join(PLI.src.main.svg, GLOB.ALL_SVG);
+PLI.SRC_MAIN_MD = path.join(PLI.src.main.md, GLOB.ALL_MD);
 PLI.SRC_TEST_CSS = path.join(PLI.src.test.css, GLOB.ALL_CSS);
 PLI.SRC_TEST_SSS = path.join(PLI.src.test.sss, GLOB.ALL_SSS);
 PLI.SRC_TEST_HTML = path.join(PLI.src.test.html, GLOB.ALL_HTML);
 PLI.SRC_TEST_JS = path.join(PLI.src.test.js, GLOB.ALL_JS);
 PLI.SRC_TEST_SVG = path.join(PLI.src.test.svg, GLOB.ALL_SVG);
+PLI.SRC_TEST_MD = path.join(PLI.src.test.md, GLOB.ALL_MD);
 
 PLI.TARGET_MAIN_CSS = path.join(PLI.target.main.css, GLOB.ALL_CSS);
 PLI.TARGET_MAIN_HTML = path.join(PLI.target.main.html, GLOB.ALL_HTML);
