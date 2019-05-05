@@ -77,6 +77,7 @@ PLI.SRC_TEST_HTML = path.join(PLI.src.test.html, GLOB.ALL_HTML);
 PLI.SRC_TEST_JS = path.join(PLI.src.test.js, GLOB.ALL_JS);
 PLI.SRC_TEST_SVG = path.join(PLI.src.test.svg, GLOB.ALL_SVG);
 PLI.SRC_TEST_MD = path.join(PLI.src.test.md, GLOB.ALL_MD);
+PLI.SRC_TEST_NJK = path.join(PLI.src.test.njk, GLOB.ALL_NJK);
 
 PLI.TARGET_MAIN_CSS = path.join(PLI.target.main.css, GLOB.ALL_CSS);
 PLI.TARGET_MAIN_HTML = path.join(PLI.target.main.html, GLOB.ALL_HTML);
@@ -86,6 +87,7 @@ PLI.TARGET_TEST_CSS = path.join(PLI.target.test.css, GLOB.ALL_CSS);
 PLI.TARGET_TEST_HTML = path.join(PLI.target.test.html, GLOB.ALL_HTML);
 PLI.TARGET_TEST_JS = path.join(PLI.target.test.js, GLOB.ALL_JS);
 PLI.TARGET_TEST_SVG = path.join(PLI.target.test.svg, GLOB.ALL_SVG);
+PLI.TARGET_TEST_NJK = path.join(PLI.target.test.njk, GLOB.ALL_NJK);
 
 PLI.DEPLOY_MAIN_CSS = path.join(PLI.deploy.main.css, GLOB.ALL_CSS);
 PLI.DEPLOY_MAIN_HTML = path.join(PLI.target.main.html, GLOB.ALL_HTML);
