@@ -39,14 +39,16 @@ var PLI = {
       css: 'target/main/css/',
       html: 'target/main/html/',
       svg: 'target/main/svg/',
-      njk: 'target/main/njk/'
+      njk: 'target/main/njk/',
+      md: 'target/main/md/'
     },
     test: {
       js: 'target/test/js/',
       css: 'target/test/css/',
       html: 'target/test/html/',
       svg: 'target/test/svg/',
-      njk: 'target/test/njk/'
+      njk: 'target/test/njk/',
+      md: 'target/test/md/'
     }
   },
   deploy: {
@@ -83,10 +85,12 @@ PLI.TARGET_MAIN_CSS = path.join(PLI.target.main.css, GLOB.ALL_CSS);
 PLI.TARGET_MAIN_HTML = path.join(PLI.target.main.html, GLOB.ALL_HTML);
 PLI.TARGET_MAIN_JS = path.join(PLI.target.main.js, GLOB.ALL_JS);
 PLI.TARGET_MAIN_SVG = path.join(PLI.target.main.svg, GLOB.ALL_SVG);
+PLI.TARGET_MAIN_MD = path.join(PLI.target.main.md, GLOB.ALL_MD);
 PLI.TARGET_TEST_CSS = path.join(PLI.target.test.css, GLOB.ALL_CSS);
 PLI.TARGET_TEST_HTML = path.join(PLI.target.test.html, GLOB.ALL_HTML);
 PLI.TARGET_TEST_JS = path.join(PLI.target.test.js, GLOB.ALL_JS);
 PLI.TARGET_TEST_SVG = path.join(PLI.target.test.svg, GLOB.ALL_SVG);
+PLI.TARGET_TEST_MD = path.join(PLI.target.test.md, GLOB.ALL_MD);
 PLI.TARGET_TEST_NJK = path.join(PLI.target.test.njk, GLOB.ALL_NJK);
 
 PLI.DEPLOY_MAIN_CSS = path.join(PLI.deploy.main.css, GLOB.ALL_CSS);
