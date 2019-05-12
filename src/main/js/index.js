@@ -98,6 +98,7 @@ PLI.DEPLOY_TEST_JS = path.join(PLI.deploy.test.js, GLOB.ALL_JS);
 
 PLI.SERVE_TEST_HTML = path.join(PLI.SERVE, GLOB.ALL_HTML);
 PLI.SERVE_TEST_SVG = path.join(PLI.SERVE, GLOB.ALL_SVG);
+PLI.SERVE_TEST_CSS = path.join(PLI.SERVE, GLOB.ALL_CSS);
 
 PLI.NODE_MODULES = 'node_modules';
 
