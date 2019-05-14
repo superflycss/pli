@@ -1,3 +1,5 @@
+'use strict';
+
 var path = require('path');
 var GLOB = require('glob-patterns');
 
@@ -12,6 +14,11 @@ var PLI = {
     js: 'serve/js/',
     css: 'serve/css/',
     svg: 'serve/svg/'
+  },
+  deploy: {
+    js: 'deploy/js/',
+    css: 'deploy/css/',
+    svg: 'deploy/svg/'
   },
   src: {
     main: {
@@ -50,20 +57,6 @@ var PLI = {
       njk: 'target/test/njk/',
       md: 'target/test/md/'
     }
-  },
-  deploy: {
-    main: {
-      js: 'deploy/main/js/',
-      css: 'deploy/main/css/',
-      html: 'deploy/main/html/',
-      njk: 'deploy/main/njk/'
-    },
-    test: {
-      js: 'deploy/test/js/',
-      css: 'deploy/test/css/',
-      html: 'deploy/test/html/',
-      njk: 'deploy/test/njk/'
-    }
   }
 }
 
@@ -93,16 +86,13 @@ PLI.TARGET_TEST_SVG = path.join(PLI.target.test.svg, GLOB.ALL_SVG);
 PLI.TARGET_TEST_MD = path.join(PLI.target.test.md, GLOB.ALL_MD);
 PLI.TARGET_TEST_NJK = path.join(PLI.target.test.njk, GLOB.ALL_NJK);
 
-PLI.DEPLOY_MAIN_CSS = path.join(PLI.deploy.main.css, GLOB.ALL_CSS);
-PLI.DEPLOY_MAIN_HTML = path.join(PLI.target.main.html, GLOB.ALL_HTML);
-PLI.DEPLOY_MAIN_JS = path.join(PLI.deploy.main.js, GLOB.ALL_JS);
-PLI.DEPLOY_TEST_CSS = path.join(PLI.deploy.test.css, GLOB.ALL_CSS);
-PLI.DEPLOY_TEST_HTML = path.join(PLI.deploy.test.html, GLOB.ALL_HTML);
-PLI.DEPLOY_TEST_JS = path.join(PLI.deploy.test.js, GLOB.ALL_JS);
+PLI.DEPLOY_TEST_CSS = path.join(PLI.deploy.css, GLOB.ALL_CSS);
+PLI.DEPLOY_TEST_HTML = path.join(PLI.DEPLOY, GLOB.ALL_HTML);
+PLI.DEPLOY_TEST_JS = path.join(PLI.deploy.js, GLOB.ALL_JS);
 
 PLI.SERVE_TEST_HTML = path.join(PLI.SERVE, GLOB.ALL_HTML);
-PLI.SERVE_TEST_SVG = path.join(PLI.SERVE, GLOB.ALL_SVG);
-PLI.SERVE_TEST_CSS = path.join(PLI.SERVE, GLOB.ALL_CSS);
+PLI.SERVE_TEST_SVG = path.join(PLI.serve.svg, GLOB.ALL_SVG);
+PLI.SERVE_TEST_CSS = path.join(PLI.serve.css, GLOB.ALL_CSS);
 
 PLI.NODE_MODULES = 'node_modules';
 

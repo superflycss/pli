@@ -1,10 +1,11 @@
 {
   "name": "@superflycss/pli",
-  "version": "3.0.7",
+  "version": "3.0.9",
   "description": "Standard directory layout for all SuperflyCSS modules",
   "main": "src/main/js/index.js",
   "scripts": {
-    "update": "ncu -u && npm i"
+    "update": "ncu -u && npm i",
+    "test": "jest"
   },
   "keywords": [
     "standard",
@@ -23,6 +24,7 @@
     "glob-patterns": "0.0.5"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "npm-check-updates": "^3.1.9"
   }
 }
